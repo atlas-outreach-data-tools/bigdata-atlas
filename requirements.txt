@@ -1,0 +1,23 @@
+# Python packages needed to run all notebooks in this repository.
+# Used by SWAN custom environments, and also works locally:
+#   pip install -r requirements.txt
+
+# Finding ATLAS Open Data files
+atlasopenmagic
+
+# Reading ROOT files (no ROOT install needed)
+uproot
+fsspec-xrootd   # root:// URLs (the atlasopenmagic default)
+aiohttp         # https:// URLs
+requests
+
+# Analysis and plotting
+numpy
+scipy
+pandas
+matplotlib
+hist[plot]
+
+# Machine learning (Book8, Book9)
+scikit-learn
+tensorflow
